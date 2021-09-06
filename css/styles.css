@@ -21,7 +21,7 @@ body{
 .navigation{
     width: auto;
     height: 120px;
-    background-color: pink;
+    background-color: rgb(215, 129, 224);
 }
 
 .container{
@@ -33,47 +33,37 @@ body{
 .containerTop{
     width: auto;
     height: 40%;
-    background-color: gold;
+    background-color: rgb(224, 214, 134);
     margin-bottom: 25px;
 }
 
 .containerBottom{
     width: auto;
     height: calc(60% - 25px);
-    background-color: royalblue;
+    background-color: rgb(56, 139, 242);
 }
 
 .footer{
     width: auto;
     height: 50px;
-    background-color: purple;
+    background-color: rgb(128, 40, 244);
 }
 
 .containerBottom>:first-child{
     width: auto;
     height: calc(100% / 8);
-    background-color: lightblue;
+    background-color: rgb(178, 206, 228);
     margin-bottom: 20px;
 }
 
-.menuArea{
+.containerBottomProperties{
     width: calc(20% - 10px);
     height: calc(100% - 13% - 40px);
-    background-color: lightblue;
+    background-color: rgb(178, 206, 228);
     float: left;
 }
 
 .mainArea{
     width: calc(60% - 10px);
-    height: calc(100% - 13% - 40px);
     margin: 0 15px;
-    background-color: lightblue;
-    float: left;
-}
-
-.trdArea{
-    width: calc(20% - 10px);
-    height: calc(100% - 13% - 40px);
-    background-color: lightblue;
-    float: left;
 }
