@@ -49,7 +49,7 @@ body{
     background-color: rgb(128, 40, 244);
 }
 
-.containerBottom>:first-child{
+.containerBottom div:first-child{
     width: auto;
     height: calc(100% / 8);
     background-color: rgb(178, 206, 228);
