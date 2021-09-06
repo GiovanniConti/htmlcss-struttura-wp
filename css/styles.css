@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* stili tag */
+
+body{
+    margin: 30px 120px;
+}
+
+/* stili classi */
+
+.navigation{
+    width: auto;
+    height: 120px;
+    background-color: pink;
+}
+
+.container{
+    margin: 25px 0 10px 0;
+    width: auto;
+    height: 900px;
+}
+
+.containerTop{
+    width: auto;
+    height: 40%;
+    background-color: gold;
+    margin-bottom: 25px;
+}
+
+.containerBottom{
+    width: auto;
+    height: calc(60% - 25px);
+    background-color: royalblue;
+}
+
+.footer{
+    width: auto;
+    height: 50px;
+    background-color: purple;
+}
